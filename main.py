@@ -1,7 +1,7 @@
 """----------------------------------------------------------------
-Name:       your name
+Name:       Brayden Kupczyk
 Assignment: Lab - Baby Shark
-Course:     CS 1430, Section X, Fall 2026
+Course:     CS 1430, Section Online, Fall 2026
 Purpose:    This program is designed to be practice for Python
             functions
 
@@ -24,30 +24,16 @@ Output: The sound Baby Shark, with three verses:
 ##############
 REPEAT = 3
 
+def print_line(character):
+    for _ in range(REPEAT):
+        print(character,"Shark,")
+        print("doo-doo-doo-do-do-do-do")
+    print(character,"Shark!")
 
 def main():
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark!")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark!")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark!")
-
+    print_line("Baby")
+    print_line("Mommy")
+    print_line("Daddy")
 
 if __name__ == "__main__":
     main()
